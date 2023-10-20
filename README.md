@@ -21,6 +21,7 @@ fields:
 ## Installation
 
 ### Download
+
 Download and copy this repository to /site/plugins/field-id
 
 ### Git submodule
