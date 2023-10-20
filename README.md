@@ -1,6 +1,6 @@
 # Kirby Field ID
 
-Generates a unique ID for fields until UUID's are implemented in Kirby.
+Generates a unique ID for fields until UUID's are implemented in structure fields.
 
 It's just an extension of `k-text-field` with a unique value.
 
