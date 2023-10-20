@@ -7,15 +7,20 @@ Kirby::plugin('sr/field-id', [
         'fieldid' => [
             'extends' => 'text',
             'props' => [
-                'value' => function (string $value = null) {
+                'value' => function (string $value = '') {
                     if($value == '' || $value == null) {
-                        // $uuid = Uuid::generate();
                         $value = Uuid::generate();
-
-                        return $value;
                     }
                     return $value;
                 },
+                'disabled' => function (bool $disabled = true) {
+                    return $disabled;
+                },
+
+                'placeholder' => function (string $placeholder = '') {
+                    $placeholder = 'An ID will be generated';
+                    return $placeholder;
+                }
 
             ]
         ]

@@ -1,10 +1,1 @@
-panel.plugin("sr/field-id", {
-    fields: {
-      fieldid: {
-        extends: "k-text",
-        props: {
-            value: String,
-        }
-      }
-    }
-  });
+(function(){"use strict";panel.plugin("sr/field-id",{fields:{fieldid:{extends:"k-text-field",props:{value:String}}}})})();

@@ -1,0 +1,16 @@
+{
+	"name": "sr/field-id",
+	"description": "Kirby field for generating unique id's",
+	"license": "MIT",
+	"type": "kirby-plugin",
+	"version": "1.0.0",
+	"authors": [
+		{
+			"name": "Simon Rüegg",
+			"email": "email@simonrueegg.ch"
+		}
+	],
+	"require": {
+		"getkirby/composer-installer": "^1.1"
+	}
+}
