@@ -22,9 +22,10 @@ fields:
 
 ### Download
 
-Download and copy this repository to /site/plugins/field-id
+Download and copy this repository to `/site/plugins/field-id`.
 
 ### Git submodule
 
+```
 git submodule add https://github.com/sr-pb/kirby-field-id.git site/plugins/field-id.
-
+```
