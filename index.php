@@ -2,9 +2,9 @@
 
 use Kirby\Uuid\Uuid;
 
-Kirby::plugin('sr/generate-id', [
+Kirby::plugin('sr/field-id', [
     'fields' => [
-        'customid' => [
+        'fieldid' => [
             'extends' => 'text',
             'props' => [
                 'value' => function (string $value = null) {

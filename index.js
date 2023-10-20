@@ -1,6 +1,6 @@
-panel.plugin("sr/generate-id", {
+panel.plugin("sr/field-id", {
     fields: {
-      customid: {
+      fieldid: {
         extends: "k-text",
         props: {
             value: String,
