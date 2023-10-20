@@ -12,10 +12,10 @@ fields:
     type: structure
     label: Tags
     fields:
-        title:
-            type: text
-        id:
-            type: fieldid
+      title:
+        type: text
+      id:
+        type: fieldid
 ```
 
 ## Installation
